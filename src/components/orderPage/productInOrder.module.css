@@ -1,0 +1,14 @@
+.productInOrder {
+  padding-left: 100px;
+  padding-right: 100px;
+  /* max-width: 1000px; */
+  display: grid;
+  grid-template-columns: repeat(5, 18%);
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.productInOrder img {
+  max-width: 150px;
+}

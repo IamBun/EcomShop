@@ -1,0 +1,21 @@
+.otherInfo {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px 200px;
+  background-color: rgba(241, 241, 241, 0.812);
+}
+
+.otherInfo .service {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Reponsive */
+@media (max-width: 768px) {
+  .otherInfo .service {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+}

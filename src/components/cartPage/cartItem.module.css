@@ -1,0 +1,51 @@
+.item {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.item form {
+  display: flex;
+  justify-content: center;
+}
+
+.item label {
+  text-align: center;
+  font-size: 18px;
+  width: 30%;
+}
+
+.item svg {
+  width: 24px;
+}
+
+.item svg:hover {
+  cursor: pointer;
+}
+
+.item .deleteIcon {
+  text-align: center;
+  font-size: 30px;
+}
+
+.item input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  .item img {
+    width: 70%;
+  }
+}

@@ -1,0 +1,40 @@
+.shopCategories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: baseline;
+  padding: 10px;
+  background-color: rgba(219, 219, 219, 0.119);
+}
+
+.shopCategories ul {
+  list-style: none;
+}
+
+.shopCategories h1 {
+  font-weight: 400;
+  margin: 20px 0;
+}
+.shopCategories h3 {
+  background-color: rgba(74, 74, 74, 0.785);
+  padding: 10px 10px;
+}
+
+.shopCategories h4 {
+  padding: 10px 0;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.shopCategories li {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.shopCategories li:hover,
+.shopCategories h4:hover {
+  cursor: pointer;
+}
+
+.shopCategories .active {
+  color: orange;
+}

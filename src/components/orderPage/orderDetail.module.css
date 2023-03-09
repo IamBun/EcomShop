@@ -1,0 +1,12 @@
+.orderDetail {
+  display: grid;
+  grid-template-columns: repeat(8, 10%);
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.orderDetail button {
+  width: 80px;
+  height: 30px;
+}

@@ -1,0 +1,13 @@
+.shopContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .shopContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

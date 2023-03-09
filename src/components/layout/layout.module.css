@@ -1,0 +1,10 @@
+.chatlivePosition {
+  position: fixed;
+  top: 85vh;
+  right: 15vw;
+}
+
+.chatlivePosition svg {
+  font-size: 30px;
+  cursor: pointer;
+}

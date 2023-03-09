@@ -1,0 +1,51 @@
+.shopSearchDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  align-items: baseline;
+  padding: 20px 20px;
+}
+
+.shopSearchDetail input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.shopSearchDetail button {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.shopSearchDetail button:hover {
+  cursor: pointer;
+}
+
+.searchDetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .searchDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .searchDetail {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+  }
+}

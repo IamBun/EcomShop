@@ -1,0 +1,30 @@
+.orderWrapper h1 {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.orderIdDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.orderIdDetail .orderIdDetailInfo {
+  display: flex;
+  gap: 5px;
+}
+
+.productTitle {
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  margin: 20px 100px;
+  margin-bottom: 0;
+  /* max-width: 1000px; */
+  display: grid;
+  grid-template-columns: repeat(5, 18%);
+  justify-content: space-between;
+  gap: 10px;
+  background-color: bisque;
+}

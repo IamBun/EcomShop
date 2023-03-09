@@ -1,0 +1,55 @@
+.title {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.buttonTransPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.buttonTransPage .buttonRight button,
+.buttonTransPage .buttonLeft button {
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.buttonTransPage .buttonLeft svg {
+  margin-right: 10px;
+}
+
+.buttonTransPage .buttonRight svg {
+  margin-left: 10px;
+}
+
+.buttonTransPage .buttonRight button:hover {
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+}
+
+.buttonTransPage .buttonLeft button:hover {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .buttonTransPage {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+    margin-left: 20px;
+  }
+
+  .title {
+    display: none;
+  }
+}

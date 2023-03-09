@@ -1,0 +1,111 @@
+.checkOut {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.checkOut .checkOutBannerImg {
+  max-width: 1200px;
+  position: relative;
+  padding: 30px 0;
+}
+
+.checkOutBannerImg img {
+  width: 100%;
+}
+
+.checkOut .bannerDescription {
+  position: absolute;
+  top: 30%;
+  left: 100px;
+}
+
+.checkOut .bannerDescription h1 {
+  margin-bottom: 20px;
+}
+
+.checkOutSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: baseline;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.checkOutSection .customerInformation {
+  width: 100%;
+  background-color: rgba(216, 216, 216, 0.218);
+  padding: 40px;
+}
+
+.checkOutSection .customerInformation h2,
+.checkOutSection .checkOutCartInfo h2 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.checkOutSection .customerInformation label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.checkOutSection .customerInformation input {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.checkOutSection .customerInformation button {
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.checkOutSection .customerInformation button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s linear;
+}
+
+.checkOutSection .checkOutCartInfo {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.checkOutSection .checkOutCartInfo .orderDetail {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkOutSection .checkOutCartInfo span {
+  font-size: 18px;
+  margin: 10px 10px 10px 0;
+}
+
+.checkOutSection .checkOutCartInfo .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .checkOutSection {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .checkOutSection .customerInformation {
+    grid-row: 2/3;
+  }
+}
